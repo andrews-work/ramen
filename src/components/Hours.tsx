@@ -12,28 +12,28 @@ const Hours: React.FC = () => {
           </thead>
           <tbody>
             <tr>
-              <td className="text-base md:text-lg lg:text-xl">Monday</td>
-              <td className="text-base md:text-lg lg:text-xl">Closed</td>
+              <td className="text-base md:text-md lg:text-lg">Monday</td>
+              <td className="text-base md:text-md md:text-xl">Closed</td>
             </tr>
             <tr>
-              <td className="text-base md:text-lg lg:text-xl">Tuesday</td>
-              <td className="text-base md:text-lg lg:text-xl">12:00 PM - 3:00 PM</td>
+              <td className="text-base md:text-md md:text-xl">Tuesday</td>
+              <td className="text-base md:text-md md:text-xl">12:00 PM - 3:00 PM</td>
             </tr>
             <tr>
-              <td className="text-base md:text-lg lg:text-xl">Wednesday</td>
-              <td className="text-base md:text-lg lg:text-xl">12:00 PM - 3:00 PM</td>
+              <td className="text-base md:text-md md:text-xl">Wednesday</td>
+              <td className="text-base md:text-md md:text-xl">12:00 PM - 3:00 PM</td>
             </tr>
             <tr>
-              <td className="text-base md:text-lg lg:text-xl">Thursday</td>
-              <td className="text-base md:text-lg lg:text-xl">12:00 PM - 3:00 PM</td>
+              <td className="text-base md:text-md md:text-xl">Thursday</td>
+              <td className="text-base md:text-md md:text-xl">12:00 PM - 3:00 PM</td>
             </tr>
             <tr>
-              <td className="text-base md:text-lg lg:text-xl">Friday</td>
-              <td className="text-base md:text-lg lg:text-xl">12:00 PM - 3:00 PM</td>
+              <td className="text-base md:text-md md:text-xl">Friday</td>
+              <td className="text-base md:text-md md:text-xl">12:00 PM - 3:00 PM</td>
             </tr>
             <tr>
-              <td className="text-base md:text-lg lg:text-xl">Saturday</td>
-              <td className="text-base md:text-lg lg:text-xl">12:00 PM - 3:00 PM</td>
+              <td className="text-base md:text-md md:text-xl">Saturday</td>
+              <td className="text-base md:text-md md:text-xl">12:00 PM - 3:00 PM</td>
             </tr>
             <tr>
               <td className="text-base md:text-lg lg:text-xl">Sunday</td>
