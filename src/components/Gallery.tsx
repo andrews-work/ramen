@@ -35,7 +35,7 @@ const Gallery: React.FC = () => {
   );
 
   return (
-    <section className="py-8 px-4 max-w-screen-lg mx-auto">
+    <section className="py-4 px-4 max-w-screen-lg mx-auto">
       <div className="relative flex justify-center">
         {visibleImages.map((image, index) => (
           <div key={index} className="image-container">
