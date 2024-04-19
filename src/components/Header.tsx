@@ -8,6 +8,7 @@ const Header: React.FC = () => {
         <h1 className="text-2xl md:text-4xl font-bold text-white mb-4">Manpuku</h1>
       </div>
       <nav className="flex justify-center space-x-4 text-white">
+        <a className="text-base sm:text-lg md:text-xl lg:text-2xl" href="#location">Contact</a>
         <a className="text-base sm:text-lg md:text-xl lg:text-2xl" href="#location">Location</a>
         <a className="text-base sm:text-lg md:text-xl lg:text-2xl" href="#hours">Hours</a>
         <a className="text-base sm:text-lg md:text-xl lg:text-2xl" href="#about">About</a>
