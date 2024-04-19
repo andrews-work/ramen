@@ -11,24 +11,26 @@ const TabletLayout: React.FC = () => {
   return (
     <div className="items-center justify-center min-h-screen">
       <Header />
-      <div className="mt-4"> 
+      <div className="mt-4 flex"> 
         <Image src="/ramen.jpg" alt="store front" width={800} height={300} />
-        <div id="menu">
-          <Button />
-        </div>
-        <div id="location">
-          <Location />
-        </div>
-        <div id="hours">
-          <Hours />
-        </div>
-        <div className="w-full" id="about">
-          <About />
-        </div>
-        <div id="gallery">
-          <MobileGallery />
+        <div className="flex-col">
+          <div id="menu">
+            <Button />
+          </div>
+          <div id="location">
+            <Location />
+          </div>
+          <div id="hours">
+            <Hours />
+          </div>
+          <div className="w-full" id="about">
+            <About />
+          </div>
         </div>
       </div>
+      <div id="gallery">
+          <MobileGallery />
+        </div>
     </div>
   );
 };
