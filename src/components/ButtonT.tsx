@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const ButtonT: React.FC = () => {
   return (
-    <section className="py-8 px-4 flex justify-center">
-      <div className="space-x-4 w-[20vw]">
+    <section className="py-8 px-4 flex justify-center w-[20vw]">
+      <div className="space-x-4">
         <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
           <Link href="/menu">
             <div className="block cursor-pointer">View Menu</div>
