@@ -12,7 +12,6 @@ const Header: React.FC = () => {
         <a className="text-base sm:text-lg md:text-xl lg:text-2xl" href="#location">Location</a>
         <a className="text-base sm:text-lg md:text-xl lg:text-2xl" href="#hours">Hours</a>
         <a className="text-base sm:text-lg md:text-xl lg:text-2xl" href="#about">About</a>
-        <a className="text-base sm:text-lg md:text-xl lg:text-2xl" href="#gallery">Gallery</a>
         <Link href="/menu">
           <div className="text-base sm:text-lg md:text-xl lg:text-2xl">Menu</div>
         </Link>
