@@ -15,7 +15,7 @@ const TabletLayout: React.FC = () => {
         <div id="gallery w-[50vw]">
           <TGallery />
         </div>
-        <div className="flex-col w-[35vw]">
+        <div className="flex-col w-[45vw]">
           <div id="menu">
             <ButtonT />
           </div>
