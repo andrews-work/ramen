@@ -11,6 +11,9 @@ const TabletLayout: React.FC = () => {
   return (
     <div className="items-center justify-center min-h-screen">
       <Header />
+      <div className="px-8">
+        <Image src="/ramen.jpg" alt="store front" layout="responsive" width={300} height={110} />
+      </div>
       <div className="mt-4 flex h-full align-items: start">
         <div id="gallery" className="w-[50vw] h-full">
           <TGallery />
@@ -30,9 +33,7 @@ const TabletLayout: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="px-8">
-        <Image src="/ramen.jpg" alt="store front" layout="responsive" width={300} height={110} />
-      </div>
+
     </div>
   );
 };
