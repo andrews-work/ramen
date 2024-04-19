@@ -11,11 +11,11 @@ const TabletLayout: React.FC = () => {
   return (
     <div className="items-center justify-center min-h-screen">
       <Header />
-      <div className="mt-4 flex h-full">
+      <div className="mt-4 flex h-full align-items: start">
         <div id="gallery" className="w-[50vw] h-full">
           <TGallery />
         </div>
-        <div className="flex-col w-[35vw] items-center justify-center space-y-4 p-4">
+        <div className="flex-col w-[35vw] items-center justify-content: space-between space-y-4 p-4">
           <div id="menu">
             <ButtonT />
           </div>
