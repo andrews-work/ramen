@@ -11,11 +11,11 @@ const TabletLayout: React.FC = () => {
   return (
     <div className="items-center justify-center min-h-screen">
       <Header />
-      <div className="mt-4 flex"> 
-        <div id="gallery w-[50vw]">
+      <div className="mt-4 flex h-full">
+        <div id="gallery" className="w-[50vw] h-full">
           <TGallery />
         </div>
-        <div className="flex-col w-[45vw]">
+        <div className="flex-col w-[35vw] space-y-4 p-4">
           <div id="menu">
             <ButtonT />
           </div>
@@ -30,8 +30,9 @@ const TabletLayout: React.FC = () => {
           </div>
         </div>
       </div>
-      <Image src="/ramen.jpg" alt="store front" width={300} height={110} />
-
+      <div className="px-8">
+        <Image src="/ramen.jpg" alt="store front" layout="responsive" width={300} height={110} />
+      </div>
     </div>
   );
 };
