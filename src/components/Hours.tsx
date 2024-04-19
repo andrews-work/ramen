@@ -10,31 +10,31 @@ const Hours: React.FC = () => {
         <table className="w-full text-left">
           <tbody>
             <tr>
-              <td className="text-base md:text-md px-4">Monday</td>
+              <td className="text-base md:text-md">Monday</td>
               <td className="text-base md:text-md px-4">Closed</td>
             </tr>
             <tr>
-              <td className="text-base md:text-md px-4">Tuesday</td>
+              <td className="text-base md:text-md">Tuesday</td>
               <td className="text-base md:text-md px-4">12:00 PM - 3:00 PM</td>
             </tr>
             <tr>
-              <td className="text-base md:text-md px-4">Wednesday</td>
+              <td className="text-base md:text-md">Wednesday</td>
               <td className="text-base md:text-md px-4">12:00 PM - 3:00 PM</td>
             </tr>
             <tr>
-              <td className="text-base md:text-md px-4">Thursday</td>
+              <td className="text-base md:text-md">Thursday</td>
               <td className="text-base md:text-md px-4">12:00 PM - 3:00 PM</td>
             </tr>
             <tr>
-              <td className="text-base md:text-md px-4">Friday</td>
+              <td className="text-base md:text-md">Friday</td>
               <td className="text-base md:text-md px-4">12:00 PM - 3:00 PM</td>
             </tr>
             <tr>
-              <td className="text-base md:text-md px-4">Saturday</td>
+              <td className="text-base md:text-md">Saturday</td>
               <td className="text-base md:text-md px-4">12:00 PM - 3:00 PM</td>
             </tr>
             <tr>
-              <td className="text-base md:text-md px-4">Sunday</td>
+              <td className="text-base md:text-md">Sunday</td>
               <td className="text-base md:text-md px-4">12:00 PM - 3:00 PM</td>
             </tr>
           </tbody>
@@ -46,7 +46,7 @@ const Hours: React.FC = () => {
         <table className="w-full text-left">
           <tbody>
             <tr>
-              <td className="text-base md:text-md px-4">Monday</td>
+              <td className="text-base md:text-md">Monday</td>
               <td className="text-base md:text-md px-4">Closed</td>
             </tr>
             <tr>
