@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Button from '@/components/Button';
 import Hours from '@/components/Hours';
 import Location from '@/components/Location';
-import About from '@/components/About';
+import AboutT from '@/components/AboutT';
 import MobileGallery from '@/components/MobileGallery';
 
 const MobileLayout: React.FC = () => {
@@ -24,7 +24,7 @@ const MobileLayout: React.FC = () => {
           <Hours />
         </div>
         <div id="about">
-          <About />
+          <AboutT />
         </div>
         <div id="gallery">
           <MobileGallery />

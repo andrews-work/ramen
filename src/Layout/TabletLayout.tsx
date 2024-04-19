@@ -4,7 +4,7 @@ import MobileGallery from '@/components/MobileGallery';
 import Hours from '@/components/Hours';
 import Button from '@/components/Button';
 import Location from '@/components/Location';
-import About from '@/components/About';
+import AboutT from '@/components/AboutT';
 import Image from 'next/image';
 
 const TabletLayout: React.FC = () => {
@@ -23,8 +23,8 @@ const TabletLayout: React.FC = () => {
           <div id="hours">
             <Hours />
           </div>
-          <div className="w-full" id="about">
-            <About />
+          <div id="about">
+            <AboutT />
           </div>
         </div>
       </div>
