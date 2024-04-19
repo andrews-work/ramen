@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '@/components/Header';
 import TGallery from '@/components/TGallery';
-import Hours from '@/components/Hours';
+import HoursT from '@/components/HoursT';
 import ButtonT from '@/components/ButtonT';
 import Location from '@/components/Location';
 import AboutM from '@/components/AboutM';
@@ -21,7 +21,7 @@ const TabletLayout: React.FC = () => {
             <Location />
           </div>
           <div id="hours">
-            <Hours />
+            <HoursT />
           </div>
           <div id="about">
             <AboutM />
