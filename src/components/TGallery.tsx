@@ -9,12 +9,10 @@ const images = [
   { src: '/ramen5.jpg', alt: 'Ramen 5 Image', width: 800, height: 300 },
   { src: '/ramen6.jpg', alt: 'Ramen 6 Image', width: 800, height: 300 },
   { src: '/ramen7.jpg', alt: 'Ramen 7 Image', width: 800, height: 300 },
-  // { src: '/ramen8.jpg', alt: 'Ramen 8 Image', width: 800, height: 300 },
-  // { src: '/ramen9.jpg', alt: 'Ramen 9 Image', width: 800, height: 300 },
 ];
 
 const NUM_IMAGES_TO_SHOW = 3;
-const SLIDESHOW_INTERVAL = 3000; // 3 seconds
+const SLIDESHOW_INTERVAL = 3000; 
 
 const TGallery: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,7 +27,6 @@ const TGallery: React.FC = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // Calculate visibleImages considering wrapping around at the end of images array
   const visibleImages = Array.from({ length: NUM_IMAGES_TO_SHOW }, (_, index) =>
     images[(currentIndex + index) % images.length]
   );
