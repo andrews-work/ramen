@@ -1,7 +1,7 @@
 // components/About.tsx
 import React from 'react';
 
-const About: React.FC = () => {
+const AboutT: React.FC = () => {
   return (
     <section className="py-8 px-4 w-[90vw] h-full">
       <h2 className="text-2xl font-bold mb-4">About Us</h2>
@@ -10,4 +10,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default AboutT;
