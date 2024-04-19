@@ -13,7 +13,7 @@ const TabletLayout: React.FC = () => {
       <Header />
       <div className="mt-4 flex"> 
         <Image src="/ramen.jpg" alt="store front" width={300} height={300} />
-        <div className="flex-col">
+        <div className="flex-col w-[30vw]">
           <div id="menu">
             <Button />
           </div>
