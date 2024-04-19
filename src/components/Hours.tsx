@@ -10,7 +10,7 @@ const Hours: React.FC = () => {
         <table className="w-full text-left">
           <tbody>
             <tr>
-              <td className="text-base md:text-md mr-4">Monday</td>
+              <td className="text-base md:text-md mr-8">Monday</td>
               <td className="text-base md:text-md">Closed</td>
             </tr>
             <tr>
