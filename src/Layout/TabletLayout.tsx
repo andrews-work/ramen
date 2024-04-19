@@ -22,7 +22,7 @@ const TabletLayout: React.FC = () => {
         <div id="hours">
           <Hours />
         </div>
-        <div id="about">
+        <div className="w-full" id="about">
           <About />
         </div>
         <div id="gallery">
