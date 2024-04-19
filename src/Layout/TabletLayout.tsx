@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '@/components/Header';
-import MobileGallery from '@/components/MobileGallery';
+import TGallery from '@/components/TGallery';
 import Hours from '@/components/Hours';
 import Button from '@/components/Button';
 import Location from '@/components/Location';
@@ -29,7 +29,7 @@ const TabletLayout: React.FC = () => {
         </div>
       </div>
       <div id="gallery">
-          <MobileGallery />
+          <TGallery />
         </div>
     </div>
   );
