@@ -12,9 +12,9 @@ const HomePage: React.FC = () => {
     const handleResize = () => {
       if (window.innerWidth <= 767) {
         setScreenSize('mobile');
-      } else if (window.innerWidth >= 768 && window.innerWidth <= 1189) {
+      } else if (window.innerWidth >= 768 && window.innerWidth <= 1250) {
         setScreenSize('smallTablet'); 
-      } else if (window.innerWidth >= 1190 && window.innerWidth <= 1350) {
+      } else if (window.innerWidth >= 1250 && window.innerWidth <= 1350) {
         setScreenSize('largeTablet'); 
       } else {
         setScreenSize('desktop');
@@ -38,3 +38,7 @@ const HomePage: React.FC = () => {
 };
 
 export default HomePage;
+
+
+// desktop layout is appearing when small layout should be appearing
+// therefore i need to increase size of small layout
