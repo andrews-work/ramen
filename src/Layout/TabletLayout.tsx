@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '@/components/Header';
 import TGallery from '@/components/TGallery';
 import Hours from '@/components/Hours';
-import Button from '@/components/Button';
+import ButtonT from '@/components/ButtonT';
 import Location from '@/components/Location';
 import AboutT from '@/components/AboutT';
 import Image from 'next/image';
@@ -15,7 +15,7 @@ const TabletLayout: React.FC = () => {
         <Image src="/ramen.jpg" alt="store front" width={500} height={110} />
         <div className="flex-col w-[15vw]">
           <div id="menu">
-            <Button />
+            <ButtonT />
           </div>
           <div id="location">
             <Location />
