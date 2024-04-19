@@ -43,7 +43,7 @@ const Gallery: React.FC = () => {
               src={image.src}
               alt={`Image ${index + 1 + currentIndex}`}
               className="h-auto rounded-lg shadow-lg mx-2"
-              style={{ maxWidth: '11vw', height: '20vh' }}
+              style={{ maxWidth: '20vw', height: '20vh' }}
             />
           </div>
         ))}
