@@ -4,7 +4,7 @@ import TGallery from '@/components/TGallery';
 import Hours from '@/components/Hours';
 import ButtonT from '@/components/ButtonT';
 import Location from '@/components/Location';
-import About from '@/components/About';
+import AboutT from '@/components/AboutT';
 import Image from 'next/image';
 
 const TabletLayout: React.FC = () => {
@@ -24,7 +24,7 @@ const TabletLayout: React.FC = () => {
             <Hours />
           </div>
           <div id="about">
-            <About />
+            <AboutT />
           </div>
         </div>
       </div>
