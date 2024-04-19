@@ -66,8 +66,8 @@ const Hours: React.FC = () => {
               <td className="text-base md:text-md">5:30 PM - 12:00 AM</td>
             </tr>
             <tr>
-              <td className="text-base md:text-md">5:30 PM - 12:00 AM</td>
               <td className="text-base md:text-md mr-4">Saturday</td>
+              <td className="text-base md:text-md">5:30 PM - 12:00 AM</td>
             </tr>
             <tr>
               <td className="text-base md:text-md mr-4">Sunday</td>
