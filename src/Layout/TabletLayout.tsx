@@ -3,7 +3,7 @@ import Header from '@/components/Header';
 import TGallery from '@/components/TGallery';
 import HoursT from '@/components/HoursT';
 import ButtonT from '@/components/ButtonT';
-import Location from '@/components/Location';
+import LocationT from '@/components/LocationT';
 import AboutM from '@/components/AboutM';
 import Image from 'next/image';
 
@@ -18,7 +18,7 @@ const TabletLayout: React.FC = () => {
             <ButtonT />
           </div>
           <div id="location">
-            <Location />
+            <LocationT />
           </div>
           <div id="hours">
             <HoursT />
