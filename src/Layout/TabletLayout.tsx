@@ -11,7 +11,7 @@ const TabletLayout: React.FC = () => {
   return (
     <div className="items-center justify-center min-h-screen">
       <Header />
-      <div className="px-8">
+      <div className="px-8 mr-[30vw]">
         <Image src="/ramen.jpg" alt="store front" layout="responsive" width={300} height={110} />
       </div>
       <div className="mt-4 flex h-full align-items: start">
