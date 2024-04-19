@@ -16,7 +16,7 @@ const images = [
 const NUM_IMAGES_TO_SHOW = 3;
 const SLIDESHOW_INTERVAL = 3000; // 3 seconds
 
-const Gallery: React.FC = () => {
+const TGallery: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -52,4 +52,4 @@ const Gallery: React.FC = () => {
   );
 };
 
-export default Gallery;
+export default TGallery;
