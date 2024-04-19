@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '@/components/Header';
-import Gallery from '@/components/Gallery';
+import MobileGallery from '@/components/MobileGallery';
 import Hours from '@/components/Hours';
 import Button from '@/components/Button';
 import Location from '@/components/Location';
@@ -9,36 +9,25 @@ import Image from 'next/image';
 
 const TabletLayout: React.FC = () => {
   return (
-    <div className="layout h-screen">
-      {/* header */}
-      <div className="h-10vh">
-        <Header />
-      </div>
-
-      {/* main */}
-      <div className="h-70vh flex items-center justify-center">
-        {/* left */}
-        <div id="about" className="w-[25vw] h-full mx-4 items-center justify-center">
+    <div className="items-center justify-center min-h-screen">
+      <Header />
+      <div className="mt-4"> 
+        <Image src="/ramen.jpg" alt="store front" width={800} height={300} />
+        <div id="menu">
           <Button />
+        </div>
+        <div id="location">
           <Location />
-          <About />
         </div>
-
-
-        {/* middle */}
-        <div className="w-[50vw] h-full mx-4 px-8">
-          <Image src="/ramen.jpg" alt="Desktop Image" width={800} height={300} />
-        </div>
-
-        {/* right */}
-        <div id="hours" className="w-[25vw] h-full mx-4 items-center justify-center">
+        <div id="hours">
           <Hours />
         </div>
-      </div>
-
-      {/* gallery */}
-      <div id="gallery" className="h-20vh">
-        <Gallery />
+        <div id="about">
+          <About />
+        </div>
+        <div id="gallery">
+          <MobileGallery />
+        </div>
       </div>
     </div>
   );
