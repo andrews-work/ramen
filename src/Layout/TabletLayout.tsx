@@ -18,7 +18,7 @@ const TabletLayout: React.FC = () => {
         <div id="gallery" className="w-[50vw] h-full">
           <TGallery />
         </div>
-        <div className="flex-col w-[45vw] ml-[10vw] items-center justify-content space-between space-y-4 p-4">
+        <div className="flex-col w-[45vw] ml-[20vw] items-center justify-content space-between space-y-4 p-4">
           <div id="menu">
             <ButtonT />
           </div>
