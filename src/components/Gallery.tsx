@@ -13,7 +13,7 @@ const images = [
   // { src: '/ramen9.jpg', alt: 'Ramen 9 Image', width: 800, height: 300 },
 ];
 
-const NUM_IMAGES_TO_SHOW = 9;
+const NUM_IMAGES_TO_SHOW = 8;
 const SLIDESHOW_INTERVAL = 3000; // 3 seconds
 
 const Gallery: React.FC = () => {
@@ -42,7 +42,7 @@ const Gallery: React.FC = () => {
             <img
               src={image.src}
               alt={`Image ${index + 1 + currentIndex}`}
-              className="h-auto rounded-lg shadow-lg mx-2"
+              className="h-auto rounded-lg shadow-lg mx-4"
               style={{ maxWidth: '12vw', height: '20vh' }}
             />
           </div>
