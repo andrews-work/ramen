@@ -13,7 +13,7 @@ const images = [
   // { src: '/ramen9.jpg', alt: 'Ramen 9 Image', width: 800, height: 300 },
 ];
 
-const NUM_IMAGES_TO_SHOW = 7;
+const NUM_IMAGES_TO_SHOW = 9;
 const SLIDESHOW_INTERVAL = 3000; // 3 seconds
 
 const Gallery: React.FC = () => {

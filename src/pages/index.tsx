@@ -14,7 +14,7 @@ const HomePage: React.FC = () => {
         setScreenSize('mobile');
       } else if (window.innerWidth >= 768 && window.innerWidth <= 1119) {
         setScreenSize('smallTablet'); 
-      } else if (window.innerWidth >= 1120 && window.innerWidth <= 1350) {
+      } else if (window.innerWidth >= 1120 && window.innerWidth <= 1450) {
         setScreenSize('largeTablet'); 
       } else {
         setScreenSize('desktop');
