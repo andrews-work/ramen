@@ -12,7 +12,7 @@ const MobileLayout: React.FC = () => {
   return (
     <div className="items-center justify-center min-h-screen">
       <Header />
-      <div className="mt-4 flex-col ml-8"> 
+      <div className="mt-4 flex-col"> 
         <Image src="/ramen.jpg" alt="store front" width={800} height={300} />
         <div id="menu">
           <Button />
