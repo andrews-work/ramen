@@ -17,11 +17,15 @@ const Location: React.FC = () => {
           (02) 8041 0938 
         </a>
       </div>
-      <p>197 Military Road,</p>
-      <p>Neutral Bay, 2089</p>
-      <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" onClick={handleViewMapClick}>
-        View in Map
-      </button>
+      <div className="flex-row">
+        <div className="flex-col">
+        <p>197 Military Road,</p>
+        <p>Neutral Bay, 2089</p>
+        </div>
+        <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" onClick={handleViewMapClick}>
+          View in Map
+        </button>
+      </div>
     </section>
   );
 };
