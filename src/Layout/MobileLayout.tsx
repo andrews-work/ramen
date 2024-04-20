@@ -4,8 +4,8 @@ import Header from '@/components/Header';
 import Image from 'next/image';
 import Button from '@/components/Button';
 import HoursM from '@/components/HoursM';
-import Location from '@/components/Location';
-import AboutT from '@/components/AboutT';
+import LocationM from '@/components/LocationM';
+import AboutMo from '@/components/AboutMo';
 import MobileGallery from '@/components/MobileGallery';
 
 const MobileLayout: React.FC = () => {
@@ -14,19 +14,19 @@ const MobileLayout: React.FC = () => {
       <Header />
       <div className="mt-4 flex-col"> 
         <Image src="/ramen.jpg" alt="store front" width={800} height={300} />
-        <div id="menu">
+        <div>
           <Button />
         </div>
-        <div id="location">
-          <Location />
+        <div>
+          <LocationM />
         </div>
-        <div id="hours">
+        <div>
           <HoursM />
         </div>
-        <div id="about">
-          <AboutT />
+        <div>
+          <AboutMo />
         </div>
-        <div id="gallery">
+        <div>
           <MobileGallery />
         </div>
       </div>
