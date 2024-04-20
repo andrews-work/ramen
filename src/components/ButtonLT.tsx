@@ -5,12 +5,12 @@ const ButtonLT: React.FC = () => {
   return (
     <section className="pb-2 px-2 flex-col justify-center text-sm">
       <div>
-        <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-2 rounded">
+        <button className="mt-2 bg-blue-500 hover:bg-blue-600 text-white font-bold py-1 px-1 rounded">
           <Link href="/menu">
             <div className="block cursor-pointer">View Menu</div>
           </Link>
         </button>
-        <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-2 rounded">
+        <button className="mt-2 bg-blue-500 hover:bg-blue-600 text-white font-bold py-1 px-1 rounded">
           <Link href="/menu-photos">
             <div className="block cursor-pointer">Menu w/ photos</div>
           </Link>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hours: React.FC = () => {
   return (
-    <section className="mb-8 ml-4">
+    <section className="mb-4 ml-4">
       <div>
         <h3 className="text-lg font-semibold mb-2 decoration-white underline">Lunch</h3>
         <table className="w-full text-left">
