@@ -18,7 +18,7 @@ const LTabletLayout: React.FC = () => {
       {/* main */}
       <div className="h-70vh flex items-center justify-center">
         {/* left */}
-        <div id="about" className="w-[25vw] h-full mx-4 items-center justify-center">
+        <div id="about" className="w-[30vw] h-full mx-4 items-center justify-center">
           <ButtonLT />
           <LocationLT />
           <AboutLT />
@@ -31,7 +31,7 @@ const LTabletLayout: React.FC = () => {
         </div>
 
         {/* right */}
-        <div id="hours" className="w-[25vw] h-full mx-4 items-center justify-center">
+        <div id="hours" className="w-[30vw] h-full mx-4 items-center justify-center">
           <HoursLT />
         </div>
       </div>
