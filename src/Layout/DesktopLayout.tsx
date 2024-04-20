@@ -39,7 +39,7 @@ const DesktopLayout: React.FC = () => {
       </div>
 
       {/* gallery */}
-      <div id="gallery" className="h-20vh">
+      <div id="gallery" className="h-20vh mt-2">
         <Gallery />
       </div>
     </div>
