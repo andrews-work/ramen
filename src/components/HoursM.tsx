@@ -2,7 +2,7 @@ import React from 'react';
 
 const HoursM: React.FC = () => {
   return (
-    <section className="px-4 mb-8 ml-[8vw]">
+    <section className="px-4 mb-8 ml-[10vw]">
       <h2 className="text-2xl font-bold mb-8 text-blue">Opening Hours</h2>
 
       <div>
