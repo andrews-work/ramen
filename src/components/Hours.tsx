@@ -3,10 +3,10 @@ import React from 'react';
 const Hours: React.FC = () => {
   return (
     <section className="px-4 mb-8 ml-[7vw]">
-      <h2 className="text-2xl font-bold mb-5 text-blue">Opening Hours</h2>
+      <h2 className="text-2xl font-bold mb-8 text-blue">Opening Hours</h2>
 
       <div>
-        <h3 className="text-xl font-semibold mb-4 decoration-white underline">Lunch</h3>
+        <h3 className="text-xl font-semibold mb-6 decoration-white underline">Lunch</h3>
         <table className="w-full text-left">
           <tbody>
             <tr>
@@ -42,7 +42,7 @@ const Hours: React.FC = () => {
       </div>
 
       <div className="mt-10">
-        <h3 className="text-xl font-semibold mb-4 decoration-white underline">Dinner</h3>
+        <h3 className="text-xl font-semibold mb-6 decoration-white underline">Dinner</h3>
         <table className="w-full text-left">
           <tbody>
             <tr>
