@@ -14,16 +14,16 @@ const MobileLayout: React.FC = () => {
       <Header />
       <div className="mt-4"> 
         <Image src="/ramen.jpg" alt="store front" width={800} height={300} />
-        <div id="menu">
+        <div id="menu" className="ml-[2vw]">
           <Button />
         </div>
-        <div id="location">
+        <div id="location" className="ml-[9vw]">
           <Location />
         </div>
-        <div id="hours">
+        <div id="hours" className="ml-[9vw]">
           <Hours />
         </div>
-        <div id="about">
+        <div id="about" className="ml-[9vw]">
           <AboutT />
         </div>
         <div id="gallery">
