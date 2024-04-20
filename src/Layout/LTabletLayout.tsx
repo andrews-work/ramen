@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from '@/components/Header';
 import Gallery from '@/components/Gallery';
-import Hours from '@/components/Hours';
-import Button from '@/components/Button';
-import Location from '@/components/Location';
-import About from '@/components/About';
+import HoursLT from '@/components/HoursLT';
+import ButtonLT from '@/components/ButtonLT';
+import LocationLT from '@/components/LocationLT';
+import AboutLT from '@/components/AboutLT';
 import Image from 'next/image';
 
 const LTabletLayout: React.FC = () => {
@@ -19,9 +19,9 @@ const LTabletLayout: React.FC = () => {
       <div className="h-70vh flex items-center justify-center">
         {/* left */}
         <div id="about" className="w-[25vw] h-full mx-4 items-center justify-center">
-          <Button />
-          <Location />
-          <About />
+          <ButtonLT />
+          <LocationLT />
+          <AboutLT />
         </div>
 
 
@@ -32,7 +32,7 @@ const LTabletLayout: React.FC = () => {
 
         {/* right */}
         <div id="hours" className="w-[25vw] h-full mx-4 items-center justify-center">
-          <Hours />
+          <HoursLT />
         </div>
       </div>
 
