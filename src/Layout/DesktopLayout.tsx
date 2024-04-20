@@ -20,19 +20,19 @@ const DesktopLayout: React.FC = () => {
         {/* left */}
         <div className="h-70vh flex w-full justify-center items-center">
           {/* left */}
-          <div id="about" className="h-full w-1/4 flex-col justify-center items-center">
+          <div id="about" className="h-full w-[15vw] mr-[5vw] ml-[5vw] flex-col justify-center items-center">
             <Button />
             <Location />
             <About />
           </div>
 
           {/* middle */}
-          <div className="w-1/2 h-full flex justify-center items-center">
+          <div className="w-[50vw] h-full flex justify-center items-center">
             <Image src="/ramen.jpg" alt="Desktop Image" width={800} height={300} />
           </div>
 
           {/* right */}
-          <div id="hours" className="w-1/4 h-full flex justify-center items-center">
+          <div id="hours" className="w-[20vw] h-full flex justify-center items-center">
             <Hours />
           </div>
         </div>
