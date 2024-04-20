@@ -26,12 +26,12 @@ const LTabletLayout: React.FC = () => {
 
 
         {/* middle */}
-        <div className="w-[40vw] mx-2">
+        <div className="w-[40vw]">
           <Image src="/ramen.jpg" alt="Desktop Image" width={600} height={200} />
         </div>
 
         {/* right */}
-        <div id="hours" className="w-[30vw] h-full mx-4 items-center justify-center">
+        <div id="hours" className="w-[30vw] ml-2 h-full mx-4 items-center justify-center">
           <HoursLT />
         </div>
       </div>
