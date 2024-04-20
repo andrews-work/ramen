@@ -35,14 +35,14 @@ const Gallery: React.FC = () => {
   );
 
   return (
-    <section className="py-4 px-4 max-w-screen-lg mx-auto">
+    <section className="py-2 px-2 max-w-screen-lg mx-auto">
       <div className="relative flex justify-center">
         {visibleImages.map((image, index) => (
           <div key={index} className="image-container">
             <img
               src={image.src}
               alt={`Image ${index + 1 + currentIndex}`}
-              className="h-auto rounded-lg shadow-lg mx-4"
+              className="h-auto rounded-lg shadow-lg mx-3"
               style={{ maxWidth: '12vw', height: '20vh' }}
             />
           </div>

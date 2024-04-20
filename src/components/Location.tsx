@@ -10,7 +10,7 @@ const Location: React.FC = () => {
   };
 
   return (
-    <section className="py-10 px-4 mr-[7vw]">
+    <section className="py-10 px-4 mr-[6vw]">
       <h2 className="text-2xl font-bold mb-4">Location / Contact</h2>
       <div className="flex items-center mb-2">
         <a href="tel:+61280410938" className="text-orange hover:text-blue-600" onClick={handlePhoneCall}>
