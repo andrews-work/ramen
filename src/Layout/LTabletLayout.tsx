@@ -26,7 +26,7 @@ const LTabletLayout: React.FC = () => {
 
 
         {/* middle */}
-        <div className="w-[50vw] mx-2 px-4">
+        <div className="w-[40vw] mx-2">
           <Image src="/ramen.jpg" alt="Desktop Image" width={600} height={200} />
         </div>
 
