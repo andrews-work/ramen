@@ -20,7 +20,7 @@ const DesktopLayout: React.FC = () => {
         {/* left */}
         <div className="h-70vh flex w-full ">
           {/* left */}
-          <div id="about" className="w-[25vw] h-full mx-12">
+          <div id="about" className=" h-full">
             <Button />
             <Location />
             <About />
