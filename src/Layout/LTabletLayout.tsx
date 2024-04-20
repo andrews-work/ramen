@@ -18,7 +18,7 @@ const LTabletLayout: React.FC = () => {
       {/* main */}
       <div className="h-70vh flex items-center justify-center">
         {/* left */}
-        <div id="about" className="w-[25vw] h-full mx-4 items-center justify-center">
+        <div id="about" className="w-[25vw] ml-2 h-full mx-4 items-center justify-center">
           <ButtonLT />
           <LocationLT />
           <AboutLT />
