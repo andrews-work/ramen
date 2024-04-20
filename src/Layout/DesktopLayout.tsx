@@ -16,7 +16,7 @@ const DesktopLayout: React.FC = () => {
       </div>
 
       {/* main */}
-      <div className="h-70vh flex w-full justify-center items-center">
+      <div className="h-70vh flex w-full justify-center items-center space-evenly">
         {/* left */}
         <div className="h-70vh flex w-full justify-center items-center">
           {/* left */}
