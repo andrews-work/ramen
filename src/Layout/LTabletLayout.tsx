@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '@/components/Header';
-import Gallery from '@/components/Gallery';
+import GalleryTL from '@/components/GalleryTL';
 import HoursLT from '@/components/HoursLT';
 import ButtonLT from '@/components/ButtonLT';
 import LocationLT from '@/components/LocationLT';
@@ -38,7 +38,7 @@ const LTabletLayout: React.FC = () => {
 
       {/* gallery */}
       <div id="gallery" className="h-20vh">
-        <Gallery />
+        <GalleryTL />
       </div>
     </div>
   );
