@@ -18,7 +18,7 @@ const DesktopLayout: React.FC = () => {
       {/* main */}
       <div className="h-70vh flex w-full">
         {/* left */}
-        <div id="about" className="w-[25vw] mr-[80vw] h-full mx-4 items-center justify-center">
+        <div id="about" className="w-[25vw] ml-[15vw] h-full mx-4 items-center justify-center">
           <Button />
           <Location />
           <About />
@@ -26,12 +26,12 @@ const DesktopLayout: React.FC = () => {
 
 
         {/* middle */}
-        <div className="w-[50vw] h-full mx-4 px-8">
+        <div className="w-[50vw] h-full mx-4 px-8 flex items-center">
           <Image src="/ramen.jpg" alt="Desktop Image" width={800} height={300} />
         </div>
 
         {/* right */}
-        <div id="hours" className="w-[25vw] ml-[40vw] h-full mx-4 items-center justify-center">
+        <div id="hours" className="w-[25vw] ml-[20vw] h-full mx-4 items-center justify-center">
           <Hours />
         </div>
       </div>
