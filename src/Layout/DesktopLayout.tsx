@@ -16,9 +16,9 @@ const DesktopLayout: React.FC = () => {
       </div>
 
       {/* main */}
-      <div className="h-70vh flex items-center justify-center">
+      <div className="h-70vh flex w-full">
         {/* left */}
-        <div id="about" className="w-[25vw] mr-[40vw] h-full mx-4 items-center">
+        <div id="about" className="w-[25vw] mr-[80vw] h-full mx-4 items-center justify-center">
           <Button />
           <Location />
           <About />
@@ -31,7 +31,7 @@ const DesktopLayout: React.FC = () => {
         </div>
 
         {/* right */}
-        <div id="hours" className="w-[25vw] ml-[40vw] h-full mx-4 items-center ">
+        <div id="hours" className="w-[25vw] ml-[40vw] h-full mx-4 items-center justify-center">
           <Hours />
         </div>
       </div>
