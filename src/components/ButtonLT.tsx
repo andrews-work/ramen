@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const ButtonLT: React.FC = () => {
   return (
-    <section className="pb-2 px-2 flex-col justify-center text-sm">
+    <section className="pb-2 px-2 flex-col ml-4 justify-center text-sm">
       <div>
         <button className="mt-2 bg-blue-500 hover:bg-blue-600 text-white font-bold py-1 px-1 rounded">
           <Link href="/menu">
