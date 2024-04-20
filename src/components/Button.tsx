@@ -6,7 +6,7 @@ const Button: React.FC = () => {
     <section className="pb-4 px-4 flex justify-center mr-[6vw]">
       <div className="space-x-4">
       {/* <h2 className="text-2xl md:text-2xl font-bold mb-4">Menu</h2> */}
-        <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold pb-2 px-4 rounded">
           <Link href="/menu">
             <div className="block cursor-pointer">View Menu</div>
           </Link>
